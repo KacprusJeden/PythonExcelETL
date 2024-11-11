@@ -1,0 +1,32 @@
+DROP TABLE IF EXISTS queuexlsx.QueueItems;
+CREATE TABLE queuexlsx.QueueItems (
+  id bigint,
+  priority int,
+  queuedefinitionid bigint,
+  key varchar(100),
+  status int,
+  reviewstatus int,
+  robotid bigint,
+  startprocessing timestamp,
+  endprocessing timestamp,
+  secondsinpreviousattempts int,
+  ancestorid bigint,
+  retrynumber int,
+  tenantid int,
+  lastmodificationtime timestamp,
+  lastmodifieruserid bigint,
+  creationtime timestamp,
+  creatoruserid bigint,
+  deferdate timestamp,
+  duedate timestamp,
+  progress varchar(100),
+  organizationunitid bigint,
+  processingexceptiontype int,
+  hasduedate int,
+  revieweruserid bigint,
+  processingexceptiondetails varchar(100),
+  processingexceptionassociatedimagefilepath varchar(100),
+  processingexceptioncreationtime timestamp,
+  analyticsdata varchar(100)
+);
+
