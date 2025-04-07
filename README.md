@@ -10,3 +10,8 @@ If orientation is vertical, so record in table will be row in excel, but column 
 If orientation is horizontal, so record in table will be column in excel, but row values will be mapped with column values in table on database.
 Keys in dictionary should be the same as column names in database, and its values are list of values this column. When we get dictionary we can build data frame
 and import data.
+
+Python version - 3.11.7
+Postgres version - 16
+
+Library to download: openpyxl(to open Excel files), psycopg2(to connect to postgres), pandas, sqlalchemy
